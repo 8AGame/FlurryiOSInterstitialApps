@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BD4A6E7175D3FB300411866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6E6175D3FB300411866 /* UIKit.framework */; };
+		5BD4A6E9175D3FB300411866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6E8175D3FB300411866 /* Foundation.framework */; };
+		5BD4A6EB175D3FB300411866 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6EA175D3FB300411866 /* CoreGraphics.framework */; };
+		5BD4A6F1175D3FB300411866 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6EF175D3FB300411866 /* InfoPlist.strings */; };
+		5BD4A6F3175D3FB300411866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4A6F2175D3FB300411866 /* main.m */; };
+		5BD4A6F7175D3FB300411866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4A6F6175D3FB300411866 /* AppDelegate.m */; };
+		5BD4A6F9175D3FB300411866 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6F8175D3FB300411866 /* Default.png */; };
+		5BD4A6FB175D3FB300411866 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6FA175D3FB300411866 /* Default@2x.png */; };
+		5BD4A6FD175D3FB300411866 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6FC175D3FB300411866 /* Default-568h@2x.png */; };
+		5BD4A700175D3FB300411866 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6FE175D3FB300411866 /* MainStoryboard_iPhone.storyboard */; };
+		5BD4A703175D3FB300411866 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A701175D3FB300411866 /* MainStoryboard_iPad.storyboard */; };
+		5BD4A706175D3FB300411866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4A705175D3FB300411866 /* ViewController.m */; };
+		5BD4A713175D401300411866 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A70E175D401200411866 /* libFlurry.a */; };
+		5BD4A714175D401300411866 /* libFlurryAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A712175D401200411866 /* libFlurryAds.a */; };
+		5BD4A716175D402300411866 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A715175D402300411866 /* AdSupport.framework */; };
+		5BD4A718175D402A00411866 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A717175D402A00411866 /* SystemConfiguration.framework */; };
+		5BD4A71A175D403900411866 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A719175D403900411866 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BD4A6E3175D3FB300411866 /* OSFlurryInterstitialSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSFlurryInterstitialSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD4A6E6175D3FB300411866 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BD4A6E8175D3FB300411866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BD4A6EA175D3FB300411866 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BD4A6EE175D3FB300411866 /* OSFlurryInterstitialSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSFlurryInterstitialSample-Info.plist"; sourceTree = "<group>"; };
+		5BD4A6F0175D3FB300411866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BD4A6F2175D3FB300411866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BD4A6F4175D3FB300411866 /* OSFlurryInterstitialSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSFlurryInterstitialSample-Prefix.pch"; sourceTree = "<group>"; };
+		5BD4A6F5175D3FB300411866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BD4A6F6175D3FB300411866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BD4A6F8175D3FB300411866 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BD4A6FA175D3FB300411866 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5BD4A6FC175D3FB300411866 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BD4A6FF175D3FB300411866 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5BD4A702175D3FB300411866 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5BD4A704175D3FB300411866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BD4A705175D3FB300411866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BD4A70D175D401200411866 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		5BD4A70E175D401200411866 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		5BD4A710175D401200411866 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		5BD4A711175D401200411866 /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		5BD4A712175D401200411866 /* libFlurryAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds.a; sourceTree = "<group>"; };
+		5BD4A715175D402300411866 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5BD4A717175D402A00411866 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5BD4A719175D403900411866 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BD4A6E0175D3FB300411866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD4A71A175D403900411866 /* MediaPlayer.framework in Frameworks */,
+				5BD4A718175D402A00411866 /* SystemConfiguration.framework in Frameworks */,
+				5BD4A716175D402300411866 /* AdSupport.framework in Frameworks */,
+				5BD4A6E7175D3FB300411866 /* UIKit.framework in Frameworks */,
+				5BD4A6E9175D3FB300411866 /* Foundation.framework in Frameworks */,
+				5BD4A6EB175D3FB300411866 /* CoreGraphics.framework in Frameworks */,
+				5BD4A713175D401300411866 /* libFlurry.a in Frameworks */,
+				5BD4A714175D401300411866 /* libFlurryAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BD4A6DA175D3FB300411866 = {
+			isa = PBXGroup;
+			children = (
+				5BD4A70C175D401200411866 /* Flurry */,
+				5BD4A70F175D401200411866 /* FlurryAds */,
+				5BD4A6EC175D3FB300411866 /* FlurryiOSInterstitialAdsSample */,
+				5BD4A6E5175D3FB300411866 /* Frameworks */,
+				5BD4A6E4175D3FB300411866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BD4A6E4175D3FB300411866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A6E3175D3FB300411866 /* OSFlurryInterstitialSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BD4A6E5175D3FB300411866 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A719175D403900411866 /* MediaPlayer.framework */,
+				5BD4A717175D402A00411866 /* SystemConfiguration.framework */,
+				5BD4A715175D402300411866 /* AdSupport.framework */,
+				5BD4A6E6175D3FB300411866 /* UIKit.framework */,
+				5BD4A6E8175D3FB300411866 /* Foundation.framework */,
+				5BD4A6EA175D3FB300411866 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BD4A6EC175D3FB300411866 /* FlurryiOSInterstitialAdsSample */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A6F5175D3FB300411866 /* AppDelegate.h */,
+				5BD4A6F6175D3FB300411866 /* AppDelegate.m */,
+				5BD4A6FE175D3FB300411866 /* MainStoryboard_iPhone.storyboard */,
+				5BD4A701175D3FB300411866 /* MainStoryboard_iPad.storyboard */,
+				5BD4A704175D3FB300411866 /* ViewController.h */,
+				5BD4A705175D3FB300411866 /* ViewController.m */,
+				5BD4A6ED175D3FB300411866 /* Supporting Files */,
+			);
+			path = FlurryiOSInterstitialAdsSample;
+			sourceTree = "<group>";
+		};
+		5BD4A6ED175D3FB300411866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A6EE175D3FB300411866 /* OSFlurryInterstitialSample-Info.plist */,
+				5BD4A6EF175D3FB300411866 /* InfoPlist.strings */,
+				5BD4A6F2175D3FB300411866 /* main.m */,
+				5BD4A6F4175D3FB300411866 /* OSFlurryInterstitialSample-Prefix.pch */,
+				5BD4A6F8175D3FB300411866 /* Default.png */,
+				5BD4A6FA175D3FB300411866 /* Default@2x.png */,
+				5BD4A6FC175D3FB300411866 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BD4A70C175D401200411866 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A70D175D401200411866 /* Flurry.h */,
+				5BD4A70E175D401200411866 /* libFlurry.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		5BD4A70F175D401200411866 /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A710175D401200411866 /* FlurryAdDelegate.h */,
+				5BD4A711175D401200411866 /* FlurryAds.h */,
+				5BD4A712175D401200411866 /* libFlurryAds.a */,
+			);
+			path = FlurryAds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BD4A6E2175D3FB300411866 /* OSFlurryInterstitialSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD4A709175D3FB300411866 /* Build configuration list for PBXNativeTarget "OSFlurryInterstitialSample" */;
+			buildPhases = (
+				5BD4A6DF175D3FB300411866 /* Sources */,
+				5BD4A6E0175D3FB300411866 /* Frameworks */,
+				5BD4A6E1175D3FB300411866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSFlurryInterstitialSample;
+			productName = FlurryiOSInterstitialAdsSample;
+			productReference = 5BD4A6E3175D3FB300411866 /* OSFlurryInterstitialSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BD4A6DB175D3FB300411866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Flurry;
+			};
+			buildConfigurationList = 5BD4A6DE175D3FB300411866 /* Build configuration list for PBXProject "OSFlurryInterstitialSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BD4A6DA175D3FB300411866;
+			productRefGroup = 5BD4A6E4175D3FB300411866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BD4A6E2175D3FB300411866 /* OSFlurryInterstitialSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BD4A6E1175D3FB300411866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD4A6F1175D3FB300411866 /* InfoPlist.strings in Resources */,
+				5BD4A6F9175D3FB300411866 /* Default.png in Resources */,
+				5BD4A6FB175D3FB300411866 /* Default@2x.png in Resources */,
+				5BD4A6FD175D3FB300411866 /* Default-568h@2x.png in Resources */,
+				5BD4A700175D3FB300411866 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5BD4A703175D3FB300411866 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BD4A6DF175D3FB300411866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD4A6F3175D3FB300411866 /* main.m in Sources */,
+				5BD4A6F7175D3FB300411866 /* AppDelegate.m in Sources */,
+				5BD4A706175D3FB300411866 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BD4A6EF175D3FB300411866 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD4A6F0175D3FB300411866 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BD4A6FE175D3FB300411866 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD4A6FF175D3FB300411866 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5BD4A701175D3FB300411866 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD4A702175D3FB300411866 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BD4A707175D3FB300411866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BD4A708175D3FB300411866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BD4A70A175D3FB300411866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlurryiOSInterstitialAdsSample/OSFlurryInterstitialSample-Prefix.pch";
+				INFOPLIST_FILE = "FlurryiOSInterstitialAdsSample/OSFlurryInterstitialSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Flurry\"",
+					"\"$(SRCROOT)/FlurryAds\"",
+				);
+				PRODUCT_NAME = OSFlurryInterstitialSample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BD4A70B175D3FB300411866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlurryiOSInterstitialAdsSample/OSFlurryInterstitialSample-Prefix.pch";
+				INFOPLIST_FILE = "FlurryiOSInterstitialAdsSample/OSFlurryInterstitialSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Flurry\"",
+					"\"$(SRCROOT)/FlurryAds\"",
+				);
+				PRODUCT_NAME = OSFlurryInterstitialSample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BD4A6DE175D3FB300411866 /* Build configuration list for PBXProject "OSFlurryInterstitialSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD4A707175D3FB300411866 /* Debug */,
+				5BD4A708175D3FB300411866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD4A709175D3FB300411866 /* Build configuration list for PBXNativeTarget "OSFlurryInterstitialSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD4A70A175D3FB300411866 /* Debug */,
+				5BD4A70B175D3FB300411866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BD4A6DB175D3FB300411866 /* Project object */;
+}
