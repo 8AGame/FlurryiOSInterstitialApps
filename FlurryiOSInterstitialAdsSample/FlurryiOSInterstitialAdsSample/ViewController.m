@@ -17,6 +17,7 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -39,13 +40,16 @@
     // example, at the beginning of a level.
     [FlurryAds fetchAdForSpace:@"Takeover"
                          frame:self.view.frame size:FULLSCREEN];
+    self->displayAdz.titleLabel.text =   @"Fetching...";
+    
+    
 }
 
 -(void) viewWillDisappear:(BOOL)animated {
     
     [super viewWillDisappear:animated];
     // Reset delegate
-    [FlurryAds setAdDelegate:nil];
+    [FlurryAds setAdDelegate:nil];    
 }
 
 
@@ -58,10 +62,12 @@
     if ([FlurryAds adReadyForSpace:@"Takeover"]) {
         [FlurryAds displayAdForSpace:@"Takeover"
                               onView:self.view];
+        
     } else {
         // Fetch an ad
         [FlurryAds fetchAdForSpace:@"Takeover"
                              frame:self.view.frame size:FULLSCREEN];
+        
     }
     
 }
@@ -75,6 +81,7 @@
 interstitial {
     if (interstitial) {
         NSLog(@"Pause app state now");
+        
     }
     
     // Continue ad display
@@ -92,11 +99,13 @@ interstitial {
 
 - (void)spaceDidReceiveAd:(NSString *)adSpace {
     NSLog(@"=========== Ad Space [%@] Did Receive Ad ================ ", adSpace);
-       
+    self->displayAdz.titleLabel.text =   @"Display";
+    
 }
 
 - (void)spaceDidFailToReceiveAd:(NSString *)adSpace error:(NSError *)error {
     NSLog(@"=========== Ad Space [%@] Did Fail to Receive Ad with error [%@] ================ ", adSpace, error);
+    self->displayAdz.titleLabel.text =   @"Fetch";
     
 }
 
@@ -107,6 +116,7 @@ interstitial {
 
 - (void)spaceWillDismiss:(NSString *)adSpace interstitial:(BOOL)interstitial {
     NSLog(@"=========== Ad Space [%@] Will Dismiss for interstitial [%d] ================ ", adSpace, interstitial);
+    self->displayAdz.titleLabel.text =   @"Fetch";
 }
 
 
@@ -131,4 +141,8 @@ interstitial {
 }
 
 
+- (void)dealloc {
+    [displayAdz release];
+    [super dealloc];
+}
 @end

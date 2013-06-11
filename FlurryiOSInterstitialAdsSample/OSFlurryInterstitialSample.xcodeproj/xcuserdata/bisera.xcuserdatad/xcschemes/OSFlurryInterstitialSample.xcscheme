@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BD4A6E2175D3FB300411866"
-               BuildableName = "FlurryiOSInterstitialAdsSample.app"
+               BuildableName = "OSFlurryInterstitialSample.app"
                BlueprintName = "OSFlurryInterstitialSample"
                ReferencedContainer = "container:OSFlurryInterstitialSample.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BD4A6E2175D3FB300411866"
-            BuildableName = "FlurryiOSInterstitialAdsSample.app"
+            BuildableName = "OSFlurryInterstitialSample.app"
             BlueprintName = "OSFlurryInterstitialSample"
             ReferencedContainer = "container:OSFlurryInterstitialSample.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BD4A6E2175D3FB300411866"
-            BuildableName = "FlurryiOSInterstitialAdsSample.app"
+            BuildableName = "OSFlurryInterstitialSample.app"
             BlueprintName = "OSFlurryInterstitialSample"
             ReferencedContainer = "container:OSFlurryInterstitialSample.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BD4A6E2175D3FB300411866"
-            BuildableName = "FlurryiOSInterstitialAdsSample.app"
+            BuildableName = "OSFlurryInterstitialSample.app"
             BlueprintName = "OSFlurryInterstitialSample"
             ReferencedContainer = "container:OSFlurryInterstitialSample.xcodeproj">
          </BuildableReference>

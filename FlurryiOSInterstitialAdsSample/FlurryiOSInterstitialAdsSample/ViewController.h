@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UIButton *displayAdz;
+}
+
 - (IBAction)displayAd:(UIButton *)sender forEvent:(UIEvent *)event;
 
 @end
