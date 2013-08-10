@@ -16,7 +16,7 @@
 @end
 
 @implementation ViewController
-
+NSString *adSpaceName = @"MainTakeover";
 
 - (void)viewDidLoad
 {
@@ -38,7 +38,7 @@
     
     // Fetch fullscreen ads early when a later display is likely. For
     // example, at the beginning of a level.
-    [FlurryAds fetchAdForSpace:@"Takeover"
+    [FlurryAds fetchAdForSpace:adSpaceName
                          frame:self.view.frame size:FULLSCREEN];
     self->displayAdz.titleLabel.text =   @"Fetching...";
     
@@ -59,13 +59,13 @@
  */
 - (IBAction)displayAd:(UIButton *)sender forEvent:(UIEvent *)event {
     // Check if ad is ready. If so, display the ad
-    if ([FlurryAds adReadyForSpace:@"Takeover"]) {
-        [FlurryAds displayAdForSpace:@"Takeover"
+    if ([FlurryAds adReadyForSpace:adSpaceName]) {
+        [FlurryAds displayAdForSpace:adSpaceName
                               onView:self.view];
         
     } else {
         // Fetch an ad
-        [FlurryAds fetchAdForSpace:@"Takeover"
+        [FlurryAds fetchAdForSpace:adSpaceName
                              frame:self.view.frame size:FULLSCREEN];
         
     }
@@ -99,13 +99,13 @@ interstitial {
 
 - (void)spaceDidReceiveAd:(NSString *)adSpace {
     NSLog(@"=========== Ad Space [%@] Did Receive Ad ================ ", adSpace);
-    self->displayAdz.titleLabel.text =   @"Display";
+    self->displayAdz.titleLabel.text =   @"Display Ad";
     
 }
 
 - (void)spaceDidFailToReceiveAd:(NSString *)adSpace error:(NSError *)error {
     NSLog(@"=========== Ad Space [%@] Did Fail to Receive Ad with error [%@] ================ ", adSpace, error);
-    self->displayAdz.titleLabel.text =   @"Fetch";
+    self->displayAdz.titleLabel.text =   @"Fetch Ad";
     
 }
 
@@ -116,7 +116,7 @@ interstitial {
 
 - (void)spaceWillDismiss:(NSString *)adSpace interstitial:(BOOL)interstitial {
     NSLog(@"=========== Ad Space [%@] Will Dismiss for interstitial [%d] ================ ", adSpace, interstitial);
-    self->displayAdz.titleLabel.text =   @"Fetch";
+    self->displayAdz.titleLabel.text =   @"Fetch Ad";
 }
 
 

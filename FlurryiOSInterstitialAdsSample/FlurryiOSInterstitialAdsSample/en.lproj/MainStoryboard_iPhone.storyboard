@@ -14,25 +14,26 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkl-Ps-1HK" userLabel="Button - DisplayAd">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="196" id="c5Z-Py-rjo"/>
+                                    <constraint firstAttribute="width" constant="289" id="r6R-Jv-AaL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Display">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Display Ad">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="displayAd:forEvent:" destination="2" eventType="touchUpInside" id="lsa-TR-jw3"/>
+                                    <action selector="displayAd:forEvent:" destination="4" eventType="touchUpInside" id="KS2-jK-bBm"/>
+                                    <action selector="displayAd:forEvent:" destination="2" eventType="touchUpInside" id="fFq-AE-VuA"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Pkl-Ps-1HK" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="3gb-E8-NbM"/>
                             <constraint firstItem="Pkl-Ps-1HK" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="89W-dL-baB"/>
-                            <constraint firstItem="Pkl-Ps-1HK" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="wxq-iC-ejZ"/>
                         </constraints>
                     </view>
                     <connections>

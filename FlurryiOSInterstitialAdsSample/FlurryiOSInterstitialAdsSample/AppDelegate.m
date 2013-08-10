@@ -21,8 +21,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //enable Flurry Crash Reporting if no other Crash Framework is used in the app
+    [Flurry setCrashReportingEnabled:YES];
     // Replace YOUR_API_KEY with the api key in the downloaded package
-    [Flurry startSession:@"MY46MT7XB5DB7N668KD9"];
+    [Flurry startSession:@"2WZ22NRSX8W52VKZBX9G"];
     
     // Pointer to your rootViewController
     [FlurryAds initialize:_window.rootViewController];
